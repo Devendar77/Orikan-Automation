@@ -23,6 +23,7 @@ public class CardPaymentPage {
 	ConfigReader configReader = new ConfigReader();
 	Properties prop;
 
+	//Card Payment Elements
 	private By cardHolderNameField = By.xpath("//input[@id='cardHolderName']");
     private By cardType = By.id("card_type");
     private By cardNumberField = By.xpath("//input[@id='cardNumber']");
